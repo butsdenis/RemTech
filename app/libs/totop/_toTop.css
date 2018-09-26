@@ -1,0 +1,72 @@
+#toTop {
+	background: #feba19;
+	color: #000000;
+}
+
+#toTop:hover {
+	color: #3f3f3fe5;
+	background-color: #feb91998;
+	border-color: #000000;
+}
+
+#toTop:before {
+	color: #3f3f3fe5;
+}
+
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 15px;
+  right: -999em;
+  overflow: hidden;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  z-index: 999;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out; 
+}
+  #toTop span {
+    display: none; }
+  #toTop:before {
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    -webkit-font-feature-settings: 'liga';
+       -moz-font-feature-settings: 'liga';
+            font-feature-settings: 'liga';
+    width: 100%;
+    font-size: 32px;
+    line-height: 58px;
+    content: "\005e"; }
+  #toTop:focus {
+		outline: none; }
+		
+	@media(max-width: 576px) {
+		#toTop {
+			right: 10px;
+		} 
+	}
+
+  @media (min-width: 544px) {
+    #toTop {
+      right: 20px; } }
+  @media (min-width: 768px) {
+    #toTop {
+      bottom: 80px; } }
+

@@ -1,0 +1,68 @@
+.main 
+	width: 100% 
+	min-height: 600px 
+	height: 100% 
+	background-image: linear-gradient(rgba(33, 33, 33, 0.78), rgba(33, 33, 33, 0.78)), url(../img/bg.jpeg) 
+	background-position: center 
+	background-repeat: no-repeat 
+	background-size: cover 
+.main-menu 
+	.tm-wrapper 
+		justify-content: flex-end 
+.main-for-another 
+	background-color: $accent2
+.top-menu 
+	background-color: #e4e3e3 
+	.tm-wrapper 
+		&:nth-child(3) 
+			border-right: 1px solid $accent2 
+			border-left: 1px solid $accent2
+.tm-wrapper 
+	display: flex 
+	justify-content: center 
+	align-items: center 
+	margin: 15px 0 15px 0 
+	padding: 0 
+	i 
+		color: $accent2 
+		padding-right: 10px 
+	&:nth-child(1) 
+		justify-content: flex-start 
+.logo 
+	font-size: 14px 
+	font-weight: 400 
+	text-transform: uppercase 
+	span
+		font-size: 16px 
+		font-weight: bold 
+		text-transform: uppercase 
+#navbarTogglerDemo01 
+	& > ul 
+		margin-top: 20px 
+		margin-bottom: 18px 
+		& > li 
+			& > a 
+				font-size: 14px 
+				color: $text-another
+				font-weight: bold 
+				text-transform: uppercase 
+				text-decoration: none 
+			&:nth-child(1) 
+				& > a 
+					padding-left: 0 
+nav 
+	a 
+		&:hover 
+			opacity: 0.38 
+.item 
+	margin-bottom: 5px 
+	margin-right: 20px 
+	&:last-child 
+		margin-right: 0 
+.tm-icon 
+	opacity: 1 
+	font-size: 14px 
+	&:hover 
+		opacity: 0.38 
+.navbar-toggler 
+	margin: 15px 
